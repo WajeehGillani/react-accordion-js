@@ -1,0 +1,21 @@
+.accordion-header{
+    display: flex;
+    cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
+    line-height: 1.5;
+    padding: 1rem;
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+}
+.accordion-body {
+    max-height: 0;
+    border-bottom: 1px solid #ddd;
+    box-sizing: border-box;
+    overflow: hidden;   
+    transition: max-height 0.5s cubic-bezier(.525,.66,.495,1.4);  
+}
+
+.accordion-body.open{
+    max-height: 250px;
+  
+}
