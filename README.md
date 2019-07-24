@@ -1,4 +1,6 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+After npm install run:
+## 'npm install materialize-css@next'
 
 ## Available Scripts
 
