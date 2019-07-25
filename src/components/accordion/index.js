@@ -1,8 +1,4 @@
 import React, { Component } from 'react';
-// import AccordionBodyHide from '../../components/common/accordion-body-hide/';
-// import AccordionBodyShow from '../../components/common/accordion-body-show/';
-
-
 import './styles.css';
 
 class Accordion extends Component {
